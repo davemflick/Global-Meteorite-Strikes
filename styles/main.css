@@ -30,11 +30,6 @@ html, body {
 	border-radius: 3%;
 }
 
-.stroke {
-  fill: none;
-  stroke: #000;
-  stroke-width: 3px;
-}
 
 .water {
   fill: lightblue;
