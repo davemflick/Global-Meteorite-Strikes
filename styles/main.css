@@ -6,7 +6,9 @@ html, body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background-color: #ddd;
+	background-image: url('./meteor.png');
+	background-size: cover;
+	color: #eee;
 }
 
 .mapCont {
@@ -15,10 +17,16 @@ html, body {
 	position: relative;
 }
 
-.svg {
+.tooltip {
+	text-align: left;
+	visibility: hidden;
 	position: absolute;
-	top: 0;
-	left: 0;
+	height: 120px;
+	background-color: rgba(50, 50, 50, .6);
+	padding: 5px;
+	color: #eee;
+	border: 2px solid white;
+	border-radius: 3%;
 }
 
 .stroke {
@@ -27,7 +35,7 @@ html, body {
   stroke-width: 3px;
 }
 
-.fill {
+.water {
   fill: lightblue;
 }
 
